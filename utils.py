@@ -4,7 +4,7 @@ import  networkx as nx
 import  scipy.sparse as sp
 from    scipy.sparse.linalg.eigen.arpack import eigsh
 import  sys
-
+import tensorflow as tf
 
 def parse_index_file(filename):
     """
